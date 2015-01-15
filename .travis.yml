@@ -1,0 +1,11 @@
+deploy:
+  provider:
+    provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: toanderson@pivotal.io
+  password:
+    secure: HuKbKmy4SteJLeGPx/D4XV3VV0j4Ie/Bq1r5KG+HUdzPCO36y4mzXuSwG60h90v/c91iY45dtNSdzV4EJno8gkBaNVMA7FAKd0yOuoy3tLxH5U+m2aNrNpvPzvsgXPDFngPoThz8sWU+B2/hZUAZCBvcDS5FfaVkHMIoig6Hg1Q=
+  organization: twic
+  space: development
+  on:
+    repo: tomwhoiscontrary/CloudFoundry-EnvironmentDemo
