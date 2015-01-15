@@ -10,3 +10,4 @@ deploy:
   space: development
   on:
     repo: tomwhoiscontrary/CloudFoundry-EnvironmentDemo
+    branch: master
