@@ -1,6 +1,5 @@
 language: java
 deploy:
-  edge: true
   provider: cloudfoundry
   api: https://api.run.pivotal.io
   username: toanderson@pivotal.io
